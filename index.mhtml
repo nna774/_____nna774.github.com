@@ -1,11 +1,25 @@
-(html (@lang "ja")
+(html (@lang "ja") # This document is translated from S-exp by Buakko( https://github.com/taiju/Buakko ).
     (head
         (meta (@charset "utf-8"))
         (title "Index")
     )
     (body
         (p
-            "いっと☆わーくす！"
+            (span (@id "itWorks") "いっと☆わーくす！")
+            (br)
+            (p (@id "scratch")
+                ";; This buffer is for notes you don't want to save, and for Lisp evaluation."
+                (br)
+                ";; If you want to create a file, visit that file with C-x C-f,"
+                (br)
+                ";; then enter the text in that file's own buffer."
+            )
+        )
+        (p  (@id "mainWrap")
+            (ul (@id "services")
+                (li (a (@href "https://twitter.com/nonamea774") "Twitter"))
+                (li (a (@href "http://tumblr.nna774.net/") "Tumblr"))
+            )
         )
     )
 )
