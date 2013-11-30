@@ -2,6 +2,7 @@
     (head
         (meta (@charset "utf-8"))
         (title "canvas test")
+        (script (@type "text/javascript") (@src "canvas.js"))
     )
     (body
         (canvas (@id "test")
