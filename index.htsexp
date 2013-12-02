@@ -1,4 +1,4 @@
-(html (@lang "ja") # This document is translated from S-exp by Buakko( https://github.com/taiju/Buakko ).
+(html (@lang "ja") 
     (head
         (meta (@charset "utf-8"))
         (title "Index")
