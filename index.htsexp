@@ -35,9 +35,9 @@
 
     (footer
       (address
-        "NoNameA 774 (nonamea774@nnn77) &lt;nonamea774@gmail.com&gt;" (br)
+        "NoNameA 774 (" (a (@href "https://twitter.com/nonamea774") "nonamea774") "@nnn77) &lt;" (a (@href "mailto:nonamea774@gmail.com") "nonamea774@gmail.com") "&gt;" (br)
         "KeyID: 0x0C3E3AB2" (br)
-        "fingerprint: 674A 287A 21D2 2431 AD8F D328 AEF3 C3C7 0C3E 3AB2"
+        (a (@href "https://gist.github.com/nna774/8337711") "fingerprint: 674A 287A 21D2 2431 AD8F D328 AEF3 C3C7 0C3E 3AB2")
       )
     )
   )
