@@ -20,6 +20,14 @@
                 (li (a (@href "https://twitter.com/nonamea774") "Twitter"))
                 (li (a (@href "http://tumblr.nna774.net/") "Tumblr"))
             )
+            (p
+                (span "PKGBUILD 的な物。書き方おかしかったら教えてください。")
+                (ul
+                    (li (a (@href "https://gist.github.com/nna774/8468487") "Gyazo") " -- using google-chrome-stable")
+                    (li (a (@href "https://gist.github.com/nna774/8781461") "めんまフォント") " -- " (a (@href "http://www.anohana.jp/tv/special/font.html") "めんまフォント") "のインストーラ")
+                    (li (a (@href "https://gist.github.com/nna774/8917470")"2ch-fortune") " -- " (a (@href "http://wids.net/lab/") "2ch-fortune@Unix板[wids.net laboratory]") "のインストーラ")
+                )
+            )
         )
     )
 )
