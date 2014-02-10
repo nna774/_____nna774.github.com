@@ -15,14 +15,14 @@
         )
     )
     (p  (@id "mainWrap")
-      (p  (@id "services")
+      (section  (@id "services")
         "インターネット上の私"
         (ul
           (li (a (@href "https://twitter.com/nonamea774") "Twitter"))
           (li (a (@href "http://tumblr.nna774.net/") "Tumblr"))
         )
       )
-      (p
+      (section (@id "pkgbuild")
         (span "PKGBUILD 的な物。書き方おかしかったら教えてください。")
         (ul
           (li (a (@href "https://gist.github.com/nna774/8468487") "Gyazo") " -- using google-chrome-stable")
