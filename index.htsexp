@@ -16,9 +16,12 @@
             )
         )
         (p  (@id "mainWrap")
-            (ul (@id "services")
+            (p  (@id "services")
+              "インターネット上の私"
+              (ul
                 (li (a (@href "https://twitter.com/nonamea774") "Twitter"))
                 (li (a (@href "http://tumblr.nna774.net/") "Tumblr"))
+              )
             )
             (p
                 (span "PKGBUILD 的な物。書き方おかしかったら教えてください。")
