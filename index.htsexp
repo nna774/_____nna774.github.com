@@ -33,7 +33,6 @@
     )
 
     (footer
-      (hr (@id "beginFooter"))
       (address
         "NoNameA 774 (nonamea774@nnn77) &lt;nonamea774@gmail.com&gt;" (br)
         "KeyID: 0x0C3E3AB2" (br)
