@@ -8,12 +8,12 @@
   (body
     (header
       (span (@id "itWorks") "いっと☆わーくす！")
-        (br)
-        (p (@id "scratch")
-          ";; This buffer is for notes you don't want to save, and for Lisp evaluation." (br)
-          ";; If you want to create a file, visit that file with C-x C-f," (br)
-          ";; then enter the text in that file's own buffer."
-        )
+      (br)
+      (p (@id "scratch")
+        ";; This buffer is for notes you don't want to save, and for Lisp evaluation." (br)
+        ";; If you want to create a file, visit that file with C-x C-f," (br)
+        ";; then enter the text in that file's own buffer."
+      )
     )
     (div (@id "mainWrap")
       (section (@id "services")
