@@ -4,7 +4,7 @@
         (title "Index")
     )
     (body
-        (p
+        (header
             (span (@id "itWorks") "いっと☆わーくす！")
             (br)
             (p (@id "scratch")
