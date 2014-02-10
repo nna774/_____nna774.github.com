@@ -33,7 +33,7 @@
         (footer
            (hr (@id "beginFooter"))
            (address
-               "NoNameA 774 (nonamea774@nnn77) <nonamea774@gmail.com>" (br)
+               "NoNameA 774 (nonamea774@nnn77) &lt;nonamea774@gmail.com&gt;" (br)
                "KeyID: 0x0C3E3AB2" (br)
                "fingerprint: 674A 287A 21D2 2431 AD8F D328 AEF3 C3C7 0C3E 3AB2"
            )
