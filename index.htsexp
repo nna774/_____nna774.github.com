@@ -2,6 +2,7 @@
   (* This document is translated from S-exp by HtSExp( https://github.com/nna774/htsexp ). See original file *.htsexp instead of *.html. *)
   (head
     (meta (@charset "utf-8"))
+    (link (@rel "stylesheet") (@type "text/css") (@href "./css/default.css"))
     (title "Index")
   )
   (body
@@ -14,8 +15,8 @@
           ";; then enter the text in that file's own buffer."
         )
     )
-    (p  (@id "mainWrap")
-      (section  (@id "services")
+    (div (@id "mainWrap")
+      (section (@id "services")
         "インターネット上の私"
         (ul
           (li (a (@href "https://twitter.com/nonamea774") "Twitter"))
